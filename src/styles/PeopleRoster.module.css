@@ -1,0 +1,88 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.controls input[type="search"] {
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid #cbd5f5;
+  min-width: 260px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.statusFilters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter,
+.filterActive {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #cbd5f5;
+  font-size: 13px;
+  background: #ffffff;
+}
+
+.filterActive {
+  background: #0ea5e9;
+  color: white;
+  border-color: transparent;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.subtle {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.skills {
+  max-width: 220px;
+}

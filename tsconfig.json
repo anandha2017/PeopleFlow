@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "@playwright/test"],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/types": ["./src/types/index.ts"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/**/*",
+    "tests",
+    "playwright.config.ts"
+  ],
+  "exclude": ["node_modules"]
+}
